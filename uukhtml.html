@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Teknologi Saya</title>
+    <link rel="stylesheet" href="uuk.css">
+</head>
+<body>
+    <header>
+        <h1>Blog Teknologi Saya</h1>
+    </header>
+
+    <main>
+        <article>
+            <h2>Mengenal Teknologi Menurut Saya</h2>
+            <img src="folderFoto/fotoartikel.jpeg" alt="Foto Artikel" class="gambar-artikel">
+            <p>Di era digital yang bergerak sangat cepat saat ini, teknologi bukan lagi sekadar alat bantu, melainkan fondasi utama dari hampir setiap aspek kehidupan kita. Mulai dari cara kita bekerja, berkomunikasi, hingga cara kita menikmati hiburan, semuanya telah bertransformasi secara drastis.</p>
+        </article>
+
+        <aside>
+            <img src="folderFoto/fotoprof.jpeg" alt="Foto penulis" class="foto-profil">
+            <h3>Tentang Penulis</h3>
+            <p>Kenalin, saya Miftakh Abidy mandegani. Saya adalah siswa kelas  X SMK Telkom Malang.</p>
+        </aside>
+    </main>
+
+    <form id="formKontak" action="#" method="get">
+        <h2>Form Kontak</h2>
+
+        <div class="baris">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required minlength="3" maxlength="50">
+        </div>
+
+        <div class="baris">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="baris">
+            <label for="topik">Topik:</label>
+            <select id="topik" name="topik" required>
+                <option value="">-- Pilih --</option>
+                <option value="saran">Saran Artikel</option>
+                <option value="kritik">Kritik</option>
+                <option value="kerjasama">Kerja Sama</option>
+            </select>
+        </div>
+
+        <div class="baris">
+            <label for="pesan">Pesan:</label>
+            <textarea id="pesan" name="pesan" rows="4" required minlength="10" maxlength="200"></textarea>
+        </div>
+
+        <div class="baris">
+            <input type="checkbox" id="langganan" name="langganan">
+            <label for="langganan">Langganan artikel baru</label>
+        </div>
+
+        <button type="submit">Kirim</button>
+    </form>
+
+    <footer>
+        <p>&copy; 2026 Blog Teknologi Saya. Hak cipta dilindungi.</p>
+    </footer>
+</body>
+</html>
